@@ -1,0 +1,732 @@
+{
+	"siteVersion": "1.141.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheFeyCompendium",
+				"abbreviation": "TFC",
+				"full": "The Fey Compendium",
+				"url": "",
+				"authors": [
+					"Ned Turner"
+				],
+				"convertedBy": [
+					"Omer Barlev"
+				]
+			}
+		],
+		"dateAdded": 1635467320,
+		"dateLastModified": 1635467320
+	},
+	"legendaryGroup": [
+		{
+			"name": "Grandmother Griselda",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Griselda takes a lair action to cause one of the following effects; the Griselda can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Until initiative count 20 on the next round, any nonundead creature that tries to cast a spell of 4th level or lower in Griselda's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a {@dc 18} Constitution saving throw. On a failed save, it takes {@damage 1d6} necrotic damage per level of the spell, and the spell has no effect and is wasted.",
+						"Griselda targets one creature she can see within 30 feet of her. A crackling cord of negative energy tethers Griselda to the target. Whenever Griselda takes damage, the target must make a {@dc 18} Constitution saving throw. On a failed save, Griselda takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until Griselda or the target is no longer in Griselda's lair.",
+						"Griselda targets one creature she can see within 30 feet of her. The target must succeed on a {@dc 18} Charisma saving throw or Griselda magically learns one fact or secret about the target.",
+						"Griselda creates an illusory duplicate of herself, which appears in its own space. As long as she can see her duplicate, Griselda can move it a distance equal to her walking speed as well as make the illusion speak on her turn (no action required). The illusion has the same statistics as Griselda but can't take actions or reactions. It can interact with its environment and even pick up and hold real objects. The illusion seems real in every way but disappears if it takes any amount of damage. Otherwise, it lasts until Griselda dismisses it (no action required) or can no longer see it. If Griselda uses this lair action to create a new duplicate, the previous one vanishes, dropping any real objects in its possession."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region within 1 mile of Griselda's lair is warped by her fell magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Beasts that have an Intelligence score of 2 or lower are charmed by Griselda and directed to be aggressive toward intruders in the area.",
+						"Strange carved figurines, twig fetishes, or rag dolls magically appear in trees.",
+						"Illusory duplicates of Griselda appear in random places at random times (but never more than one in any given location). An illusory duplicate has no substance, but it looks, sounds, and moves like Griselda. Griselda can sense when one or more creatures are within 60 feet of her duplicate and can interact with them as if she were present and standing in the duplicate's space. If the illusory duplicate takes any damage, it disappears."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ragewalker",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the ragewalker takes a lair action to cause one of the following effects; the ragewalker can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The ragewalker begins singing, forcing all constructs, elementals, and undead with an Intelligence score of 6 or less within 120 feet to make a {@dc 18} Wisdom saving throw (if the creature is being controlled by a spellcaster, the spellcaster performs the saving throw for the creature, using their own spell attack modifier). On a failure, that creature becomes charmed by the ragewalker until initiative count 20 of the following round. If the creature was summoned by a spellcaster, then the spell's duration ends.",
+						"The ragewalker shrieks in fury, and all creatures that can hear it must make a {@dc 18} Charisma saving throw or be overwhelmed with memories of pain, sorrow, and rage of those who died on this battlefield, becoming {@condition incapacitated} until initiative count 20 of the following round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The battlefield in which a ragewalker was born is warped by the fey's magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Beasts instinctively avoid a ragewalker's battlefield, sensing the wrongness of it, and will become nervous if made to enter. The only exception to this is crows, ravens, and flies. Natural plant life here grows twisted and wrong.",
+						"Constructs such as animated armor and flying swords, elementals such as mephits and magmins, and undead such as specters and skeletons are common and will be loyal to the ragewalker.",
+						"The dreams of any humanoids who complete a long rest within 1 mile of the battlefield are plagued by visions of the last moments of life of those who died there and must make a {@dc 18} Charisma saving throw. On a failure, the creature gains no benefit from the long rest.",
+						"Whenever an elemental, undead, or construct with an Intelligence score of 6 or less that enters the battlefield, is summoned to the battlefield, or is created there, it must make a {@dc 18} Wisdom saving throw (if it is being summoned or created by a spellcaster, that spellcaster performs the saving throw for the creature, using their own spell attack modifier). On a failure, the creature becomes loyal to the resident ragewalker, and will be hostile to any living humanoids. These creatures obey the ragewalker's orders and will protect it at all costs. Traits that dictate a creature's behavior, such as a modron's {@i Axiomatic Mind} or a clay golem's {@i Berserk} may be removed or activated accordingly. The saving throw must be repeated every 24 hours until a failure."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rylkar Harridan",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), a lair action causes one of the following effects; the same effect cannot be created two turns in a row:",
+				{
+					"type": "list",
+					"items": [
+						"A 20-foot-cube fills with a horrific, nauseating stench, remaining until initiate count 20 of the following round. Each creature that is completely within the area at the start of its turn must make a {@dc 13} Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.",
+						"One creature that took damage from a rylkar during the last round must succeed on a {@dc 13} Constitution saving throw or the injury becomes a {@table Lingering Injuries||Festering Wound} and its maximum hit points are reduced by {@dice 1d6}.",
+						"Slick grease covers the ground in a 10-foot square centered on a point in the lair and turns it into difficult terrain until initiate count 20 of the following round. Each creature standing in its area must succeed on a {@dc 13} Dexterity saving throw or fall {@condition prone}. A creature that enters the area or ends its turn there must also succeed on a {@dc 13} Dexterity saving throw or fall {@condition prone}."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the rylkar den is contaminated by its presence, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Water within 1 mile of the nest is contaminated with {@disease Sewer Plague}. If the nest has been established for longer than 1 month, this radius increases to 2 miles, and if it has been established for 2 months that radius increases to 5 miles.",
+						"While underground within 1 mile of the lair, any food or drink exposed to open air for longer than 10 minutes becomes contaminated. Any creature that consumes this contaminated food must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the creature has disadvantage on Constitution saving throws.",
+						"All rylkars within 10 miles of their lair are in constant communication with the harridan, and she with them. If one rylkar is aware of a particular danger, they all are."
+					]
+				}
+			]
+		},
+		{
+			"name": "Black Unicorn",
+			"source": "TheFeyCompendium",
+			"regionalEffects": [
+				"Transformed by the unicorn's sinister presence, the domain of a black unicorn might include any of the following magical effects: ",
+				{
+					"type": "list",
+					"items": [
+						"The area is supernaturally quiet, lacking many of the sounds that would naturally be present such as bird calls. This causes even small noises to seem startlingly loud, imposing disadvantage on Dexterity ({@skill Stealth}) checks made to hide.",
+						"Open flames of a non-magical nature are extinguished within the unicorn's domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.",
+						"Tracks made within the area stay in place for longer, granting advantage on all checks made to track creatures in the area. The unicorn can choose to leave no tracks in the area."
+					]
+				},
+				"If the unicorn is killed, these effects disappear immediately."
+			]
+		},
+		{
+			"name": "Shadow Unicorn",
+			"source": "TheFeyCompendium",
+			"regionalEffects": [
+				"Transformed by the creature's hateful presence, the domain of a unicorn might include any of the following magical effects:",
+				{
+					"type": "list",
+					"items": [
+						"The radius of illumination is halved for all non-magical light sources.",
+						"Creatures native to the unicorn's domain are nervous and easily frightened. Reproductive rates of beasts and plants drop drastically, causing the unicorn's domain to gradually wither away into silence and death.",
+						"When a creature casts a spell or uses a magical effect that causes another creature to regain hit points, it must re-roll any dice that roll the maximum value possible on that die.",
+						"If a creature attempts to lift a curse affecting a creature within the area, it must first succeed on a {@dc 14} saving throw using its spellcasting attack modifier. On a failure, the curse is not lifted and the attempt to lift the curse is wasted."
+					]
+				},
+				"If the unicorn dies, these effects end immediately."
+			]
+		},
+		{
+			"name": "Razcoreth, the Whispering Wyrm",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Razcoreth takes a lair action to cause one of the following effects; Razcoreth can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Grasping roots and vines erupt in a 20-foot radius centered on a point on the ground that Razcoreth can see within 120 feet of it. That area becomes difficult terrain, and each creature there must succeed on a {@dc 15} Strength saving throw or be {@condition restrained} by the roots and vines. A creature can be freed if it or another creature takes an action to make a {@dc 15} Strength check and succeeds. The roots and vines wilt away when Razcoreth uses this lair action again or when Razcoreth dies.",
+						"A wall of tangled brush bristling with thorns springs into existence on a solid surface within 120 feet of Razcoreth. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, and it blocks line of sight. When the wall appears, each creature in its area must make a {@dc 15} Dexterity saving throw. A creature that fails the save takes 18 ({@damage 4d8}) piercing damage and is pushed 5 feet out of the wall's space, appearing on whichever side of the wall it wants. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, a creature in the wall's space must make a {@dc 15} Dexterity saving throw once each round it's in contact with the wall, taking 18 ({@damage 4d8}) piercing damage on a failed save, or half as much damage on a successful one. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to fire damage, resistance to bludgeoning and piercing damage, and immunity to psychic damage. The wall sinks back into the ground when Razcoreth uses this lair action again or when Razcoreth dies.",
+						"Magical fog billows around one creature Razcoreth can see within 120 feet of it. The creature must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} by Razcoreth until initiative count 20 on the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The Lake of Dreams is a miraculous realm, and as such has unique properties that Razcoreth can access. The region containing Razcoreth's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Thickets form labyrinthine passages within 1 mile of Razcoreth's lair. The thickets act as 10-foot-high, 10-foot-thick walls that block line of sight. Creatures can move through the thickets, with every 1 foot a creature moves costing it 4 feet of movement. A creature in the thickets must make a {@dc 15} Dexterity saving throw once each round it's in contact with the 'thickets or take 3 ({@damage 1d6}) piercing damage from thorns.",
+						"Each 10-foot-cube of thickets has AC 5, 30 hit points, resistance to bludgeoning and piercing damage, vulnerability to fire damage, and immunity to psychic and thunder damage.",
+						"Within 1 mile of its lair, Razcoreth leaves no physical evidence of its passage unless it wishes to. Tracking it there is impossible except by magical means. In addition, it ignores movement impediments and damage from plants in this area that are neither magical nor creatures, including the thickets described above. The plants remove themselves from Razcoreth's path.",
+						"Rodents and birds within 1 mile of Razcoreth's lair serve as Razcoreth's eyes and ears. Deer and other large game are strangely absent, hinting at the presence of an unnaturally hungry predator.",
+						"While submerged within the Lake of Dreams, Razcoreth can cast {@spell dream} at will without material components. While casting dream in this way, Razcoreth can target any creature whose full name he knows so long as they are in the Feywild, the Prime Material Plane, or the Ethereal Plane. However, he can only cause a nightmare once every 24 hours."
+					]
+				},
+				"If Razcoreth dies, the rodents and birds lose their supernatural link to it. The thickets remain, but within {@dice 1d10} days, they become mundane plants and normal difficult terrain, losing their thorns."
+			]
+		},
+		{
+			"name": "Animus Loci",
+			"source": "TheFeyCompendium",
+			"regionalEffects": [
+				"The region to which an animus loci is bound is suffused by its primal magic, creating the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Beasts, fey, and plants native to the region are permanently charmed by the animus loci and cannot be compelled by any means to target the animus loci with an attack or a harmful spell.",
+						"An animus loci can cast {@spell control weather} while within the region to which it is bound. The spell's point of origin is anywhere the animus loci chooses, and the spell can effect up to the entirety of the region to which it is bound. The animus loci doesn't need to maintain a clear path to the sky or concentrate for the change in weather to persist.",
+						"Druids loyal to the animus loci have advantage on Constitution saving throws to maintain concentration on druid spells while in the region."
+					]
+				}
+			]
+		},
+		{
+			"name": "Baba Yaga, Mother of all Witches",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Baba Yaga takes a lair action to cause one of the following effects; Baba Yaga can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"Up to 4 Medium or smaller objects that Baba Yaga can see animate, either as if with the {@spell animate objects} spell or by using statistics for animated objects given in the {@i Monster Manual}. These objects roll their own initiative and attack any creatures hostile to Baba Yaga. Up to 8 objects can be animated at a time by this effect.",
+						"One creature that Baba Yaga can see must succeed on a {@dc 22} Wisdom saving throw or be polymorphed into a beast with a CR of 1 or less until initiative count 20 of the next turn. The creature gains the statistics of the new form, but retains its Intelligence, Wisdom, and alignment. If the creature new form is reduced to 0 hit points, it regains its true form and any excess damage carries over.",
+						"Baba Yaga scolds a creature that can hear her. The creature must perform a {@dc 20} Wisdom saving throw. On a failure, the creature is affected as if by the {@spell command} spell and it must confess something shameful about itself."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing Baba Yaga's lair is warped by her presence, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Animals are more wary and nervous than usual within 5 miles of {@creature Baba Yaga's Dancing Hut|TheFeyCompendium}, hinting at the presence of an especially dangerous being.",
+						"Skulls stuck on sticks may occasionally be encountered within 5 miles of {@creature Baba Yaga's Dancing Hut|TheFeyCompendium}. These skulls may talk to the players, attack them (using the statistics for a {@creature flameskull} with a speed of 0 ft.) or simply be mundane skulls.",
+						"Evidence of covered tracks crisscross the forest floor within 5 miles of {@creature Baba Yaga's Dancing Hut|TheFeyCompendium}, caused by Baba Yaga sweeping away her tracks as she traverses her realm.",
+						"While within 5 miles of the dancing hut, {@creature Baba Yaga's Solar Knight|TheFeyCompendium} can use an action to change the time of day. This change lasts for up to 8 hours and only applies to the area within a 5 mile radius surrounding {@creature Baba Yaga's Dancing Hut|TheFeyCompendium}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Enraged Bolcaith",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), bolcaith takes a lair action to cause one of the following effects; bolcaith can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The bolcaith casts {@spell stinking cloud} on a point in its lair that it can see. The spell does not require concentration and persists until initiative count 20 of the next round.",
+						"The bolcaith briefly increases the heat within 30 feet of it enormously. All creatures that are not resistant or immune to fire damage must succeed on a {@dc 13} Constitution saving throw or gain one level of exhaustion.",
+						"The bolcaith summons a creature with a CR of 5 or less from the Outer Plane to which its volcano is connected. The creature obeys the bolcaith's commands, acts on the bolcaith's initiative, and disappears on initiative count 20 of the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing bolcaith's lair is bound to a single Outer Plane, such as Ysgard or Hades, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"While on the mountain, the DC to resist insanity for {@spell contact other plane} is reduced to 10 when attempting to contact a creature on the Outer Plane to which the volcano is bound.",
+						"While within its lair, the bolcaith can cast {@spell gate} once per hour, creating portals only to the Outer Plane to which its volcano is bound.",
+						"The plants and animals native to the bolcaith's volcano are touched by the influence of the Outer Plane to which it is bound. Those of a volcano bound to a good aligned plane may be peaceful, and the plants may grow many rich and healthy fruits. Conversely, a volcano bound to an evil aligned plane may have vicious animals and scraggly plant-life rife with thorns and poisonous fruit. Creatures native to the volcano's Outer Plane may even be found occasionally.",
+						"A dark cloud of smoke and ash extends for a radius of 10 miles from the volcano and persists for {@dice 2d10} days.",
+						"The region of the volcano is subjected to extreme heat.",
+						"The bolcaith can utilize its lair actions anywhere on its volcano, rather than just in its palace."
+					]
+				}
+			]
+		},
+		{
+			"name": "Briarwitch Dryad",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the dryad takes a lair action to cause one of the following effects; the dryad can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"A wall of tangled brush bristling with thorns springs into existence on a solid surface within 120 feet of the dryad. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, and it blocks line of sight. When the wall appears, each creature in its area must make a {@dc 16} Dexterity saving throw. A creature that fails the save takes 18 ({@damage 4d8}) piercing damage and is pushed 5 feet out of the wall's space, appearing on whichever side of the wall it wants. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature travels through the wall, it must spend 4 feet of movement. Furthermore, a creature in the wall's space must make a {@dc 16} Dexterity saving throw once each round it's in contact with the wall, taking 18 ({@damage 4d8}) piercing damage on a failed save, or half as much damage on a successful one. Each 10-foot section of wall has AC 5, 15 hit points, vulnerability to fire damage, resistance to bludgeoning and piercing damage, and immunity to psychic damage. The wall sinks back into the ground when the dryad uses this lair action again or when the dryad dies.",
+						"The dryad targets one creature charmed by it. The target must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} by the dryad for as long as it remains {@condition charmed} by the dryad. While {@condition frightened} in this way, a creature must take the {@action Dash} action and move away from the dryad by the safest available route on each of its turns unless there is nowhere to move or it is no longer in the dryad's lair. The dryad targets one creature that had taken piercing or slashing damage from thorns in the previous round. The dryad and all creatures loyal to it become attuned to that creature's blood, gaining advantage on all melee weapon attacks made against the creature until initiative count 20 of the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The briarwitch dryad's forest is warped by its magic, which makes it unfriendly and treacherous to intruders and creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Wisdom ({@skill Survival}) checks made within the forest by non-native creatures have disadvantage.",
+						"Beasts native to the area are charmed by the dryad and are especially hostile towards by non-native creatures.",
+						"Hazards such as razorvine and yellow mold and effects that mimic {@spell spike growth} ({@dc 16}) are found throughout the forest.",
+						"The briarwitch dryad is likely to have set up an ample amount of locations within the forest with the {@spell glyph of warding} spell, typically set to trigger against non-native creatures."
+					]
+				}
+			]
+		},
+		{
+			"name": "Virage",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the virage takes a lair action to cause one of the following effects; the virage can't use the same effect two turns in a row:",
+				{
+					"type": "list",
+					"items": [
+						"The virage points its finger at one creature that it can see. That creature must succeed on a {@dc 13} Constitution saving throw or become petrified until freed with a {@spell greater restoration} spell or similar effect. The creature has disadvantage on the saving throw if it has consumed food provided by the virage at any point since its last long rest. If a creature succeeds on the saving throw, it is immune to this lair action for the next 24 hours.",
+						"The virage conjures a whirling vortex of wind which lifts it up, allowing it to move up to 40 feet vertically and up to 60 feet horizontally in a direction of its choosing. It does not provoke opportunity attacks while moving in this way.",
+						"The virage creates a powerful gust of wind up to 60 feet long and 60 feet wide, which lasts until initiative count 20 of the following round. Any creatures in the area of the wind must succeed on a {@dc 18} Strength saving throw or be pushed 15 feet in the direction of the wind. A creature in this area of wind must spend 2 feet of movement for every 1 foot it moves if moving against the flow of the wind."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing a virage's lair is warped by the fey's magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"A virage can cast {@spell control weather} while it is within 3 miles of its lair. The spell's point of origin is always the point outdoors closest to the center of its lair. The virage doesn't need to maintain a clear path to the sky or concentrate for the change in weather to persist.",
+						"Safe paths through the ice and snow in the wilderness 5 miles around a frostwind viargo's lair naturally lead toward locations of the virage's choice, such as cliffs, dangerously thin ice, towards or away from its lair, and other such hazards. Paths through the snow change frequently, imposing disadvantage on all Survival checks made to prevent becoming lost. The virage never becomes lost while within 5 miles of its lair.",
+						"Humanoids that die from exhaustion due to cold within 5 miles of a virage's lair may become a {@creature ghost}, {@creature specter}, {@creature wight}, or {@creature will-o-wisp}s loyal to the virage. These restless dead wander the virage's territory or serve it in its palace."
+					]
+				},
+				"When the virage dies, the landscape becomes steadily less hostile over the course of {@dice 1d6} days, and humanoids that die there are not animated as undead."
+			]
+		},
+		{
+			"name": "Verdani",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the verdani takes a lair action to cause one of the following effects; the verdani can't use the same effect two turns in a row:",
+				{
+					"type": "list",
+					"items": [
+						"The shadows cast by the trees deepen, lulling the minds of those under their branches. All creatures of the verdani's choice must perform a {@dc 18} Charisma saving throw. On a failure, that creature has disadvantage on all Wisdom saving throws and Wisdom ({@skill Insight}) checks until initiative count 20 of the next round.",
+						"The verdani targets one creature that it can see. All creatures of the verdani's choice that can see the target must perform a {@dc 18} Wisdom saving throw. On a failure, the creature has disadvantage on {@skill Perception} checks and attack rolls versus any creature other than the target until initiative count 20 of the next round.",
+						"The play of light and shadows on the verdani becomes magnificent and terrible to behold, granting it advantage on all Charisma skill checks until initiative count 20 of the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing a verdani's lair is warped by the fey's magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The verdani is automatically aware when any creature with an Intelligence score of 5 or higher that has a powerful desire for something comes within 5 miles of its lair, though it cannot pin point its location. If it comes within 30 feet of the creature, he can identify them as the source of the desire, though it cannot identify what their desire is for.",
+						"Beasts and plant creatures loyal to the verdani are common within 5 miles of its lair. Awakened trees and shrubs may reorder themselves to change paths and treants keep a silent vigil. A verdani can convey simple telepathic commands to all beasts and plant creatures loyal to it within 5 miles of its lair."
+					]
+				},
+				"When the verdani dies, its forest becomes steadily less hostile over the course of {@dice 1d6} days."
+			]
+		},
+		{
+			"name": "Tulani",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the tulani takes a lair action to cause one of the following effects; the tulani can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"The tulani begins to either sing or dance in a compelling manner, prompting others to join in. All creatures of its choice within its lair that can hear it must make a {@dc 20} Wisdom saving throw or be compelled to join in on a failure. Any creature forced to sing cannot cast spells with verbal components or communicate effectively with teammates. Any creature forced to dance must move in a direction dictated by the tulani and cannot make weapon attacks.",
+						"The tulani casts {@spell dispel magic} as a 5th level spell.",
+						"The tulani casts {@spell mirage arcane}, affecting a room or courtyard within the lair that is no longer than 100 feet in any dimension. As part of this lair action, the tulani can also cast seeming on any number of creatures in the same room or courtyard. It does not need to see them, but it needs to be aware of their presence. This effect persists for up to 12 hours, but it ends if the tulani uses this lair action again or if a creature successfully perceives through the mirage arcane effect, such as with true sight or by succeeding a {@dc 19} {@skill Investigation} check, and declaring it as false. If dispelled by a creature declaring it as false, this lair action cannot be used again for 24 hours."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing a tulani's lair is warped by the fey's magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"As an action, the tulani can enter into the dreams of a sleeping creature within 3 miles of its lair that it is aware of. This replicates the effects of the {@spell dream} spell, except that the tulani physically enters into the dream. When it leaves the dream, it can choose to either return to where it was before it entered the dream, to return to its lair, or to appear in an unoccupied space within 5 feet of the dreamer.",
+						"The land within 3 miles of a tulani's lair is surreal and dreamlike. Distances may seem greater or lesser than they are. Illusions may be spontaneously created, replicating the effects of spells such as {@spell major image}, {@spell hallucinatory terrain}, and {@spell mirage arcane}, and these illusions may become quasi-real for a time."
+					]
+				},
+				"When the tulani dies, the landscape becomes steadily less dreamlike over the course of {@dice 1d6} days."
+			]
+		},
+		{
+			"name": "Titania, the Summer Queen",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Titania takes a lair action to cause one of the following effects; Titania can't use the same effect two turns in a row:",
+				{
+					"type": "list",
+					"items": [
+						"All creatures of Titania's choice within her lair must succeed on a {@dc 20} Charisma saving throw or have their emotional state altered. This can replicate the effects of spells such as {@spell fear} or {@spell calm emotions}, or they could create other emotions such as joy or sorrow. All affected creatures have their emotions altered in the same way, and the alteration lasts until initiative 20 count of the next turn.",
+						"Titania makes one creature friendly to her {@condition invisible} until initiative count 20 of the next round.",
+						"Titania casts {@spell dispel magic}. If successful, a fey with a challenge rating equal to or lesser than the level of the spell cancelled is summoned in an unoccupied space within 30 feet of the spell's target or point of origin. The fey is loyal to Titania, acts on her initiative count, and disappears on initiative count 20 of the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing Titania's lair is warped by her magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Titania chooses the nature of all dreams that occur within 5 miles of her lair, though not the content. For instance, she can dictate that all dreams become frightening, or peaceful, or strange, though she cannot chose what happens in them. These dreams have no lasting effect upon waking. If a creature is affected by the {@spell dream} spell, that spell takes precedence.",
+						"At the end of each long rest taken within 5 miles of the lair, each creature must make a {@dc 17} Wisdom saving throw. On a failed save, the creature is unwilling to leave Titania's realm until it completes another long rest. After three failed saving throws, the creature becomes loyally devoted to Titania and never willingly leaves her realm unless commanded to do so by Titania herself. Only a {@spell dispel evil and good} spell or similar magic can end this effect. The saving throw is made with disadvantage if the creature willingly consumes any food offered to it by Titania or a creature loyal to her prior to that long rest.",
+						"The weather within 5 miles of Titania's lair is always balmy and pleasant, a perpetual summer evening, unless Titania wishes it otherwise."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Queen of Air and Darkness",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the Queen of Air and Darkness takes a lair action to cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The Queen of Air and Darkness casts {@spell silence}. She does not need to concentrate on this spell, which ends on initiative count 20 of the next round.",
+						"All creatures within 30 feet of the Onyx Throne must succeed on a {@dc 18} Wisdom saving throw or be frightened until initiative count 20 of the following round. While frightened, the creature must use its full movement at the beginning of its turn to move away from the throne.",
+						"The Queen of Air and Darkness casts {@spell dominate monster} ({@dc 24}). This effect does not require her concentration, but she can only effect one creature with it at a time and the spell ends if the creature leaves her lair."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the Queen of Air and Darkness's lair is warped by her magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Ambitions are amplified while within 5 miles of of the Queen of Air and Darkness's lair.",
+						"Humanoids within 5 miles of the Queen of Air and Darkness's lair will occasionally hear voices whispering in their ear. If a creature respond to these whispers, the Queen of Air and Darkness hears their response and becomes aware of their presence.",
+						"Attempts made by creatures to hide in areas of darkness within 5 miles of the Queen of Air and Darkness's lair have advantage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zeitgeist",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the zeitgeist takes a lair action to cause one of the following effects; the zeitgeist can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The zeitgeist casts {@spell animate objects}. The objects animated by this effect stay animated for 1 minute or until the zeitgeist uses this lair action again, act on initiative count 20, and use the zeitgeist's spell attack modifier for their attack rolls ({@hit 10}).",
+						"The zeitgeist selects an square of ground up to 30 feet on a side. Until initiative count 20 of the following round, that area is difficult for any creatures not native to the zeitgeist's city.",
+						"The zeitgeist summons {@dice 2d4} {@creature swarm of rats}, {@dice 1d6} {@creature swarm of insects}, or {@dice 2d4} {@creature swarm of ravens} in unoccupied spaces within 30 feet of it."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The zeitgeist's city is warped by its magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Once per hour, the zeitgeist can locate one humanoid inside its city as an action. This effect succeeds without fail, even if the target is protected by spells like {@spell nondetection}.",
+						"Back streets, alleys, and sewers in the city may contain more twists and turns than they should reasonably be able to contain, leading non-natives to easily become lost."
+					]
+				}
+			]
+		},
+		{
+			"name": "Siobhan of the Hidden Depths",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Siobhan takes a lair action to cause one of the following effects; Siobhan can't use the same effect two turns in a row. ",
+				{
+					"type": "list",
+					"items": [
+						"Siobhan casts {@spell tsunami} without components. This effect requires no concentration, but while it is in effect Siobhan cannot use any other lair actions.",
+						"Siobhan draws upon the unseen terrors of the depths, darkening the water around her. All creatures within 60 feet of Siobhan that are not in an area of bright illumination must succeed on a {@dc 22} Wisdom saving throw and become {@condition frightened} until they enter an area of bright illumination or initiative count 20 of the next round. A creature that is effectively blinded, such as not possessing darkvision or being in an area of magical darkness, has disadvantage on the saving throw.",
+						"Siobhan casts {@spell darkness} three times at its lowest level, targeting different areas with the spell, one of which must be centered on her. Siobhan doesn't need to concentrate on the spells, which end on initiative count 20 of the next round. As part of this legendary action, she can teleport to any area of magical darkness within 120 feet of her."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing Siobhan's lair is warped by her magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The ocean depths surrounding Siobhan's lair are eerily serene, lulling visitors into a false sense of security. Nonnative creatures have disadvantage on {@skill Perception} and {@skill Survival} checks to prevent being surprised within 5 miles of Siobhan's lair.",
+						"Areas of darkness within 5 miles of Siobhan's lair may naturally become {@i magical darkness}.",
+						"The strange beauty of Siobhan's realm is seductive, calling out to those within it. At the end of each long rest that a creature takes while within 5 miles of Siobhan's lair, it must make a {@dc 10} Wisdom saving throw. On a failure, the target is unwilling to leave until it completes another long rest. After three failed saving throws, the creature begins to yearn to feel the embrace of the ocean without spells to alter its experience. A creature so affected must make a {@dc 13} Intelligence saving throw each time it needs to take a step to ensure its survival beyond normal tasks, such as spells to enable it to breathe underwater or wear extra clothing to handle to incredible cold. On a failure the creature neglects to do so."
+					]
+				},
+				"If Siobhan dies, these effects fade away over {@dice 1d10} days."
+			]
+		},
+		{
+			"name": "Tireganrierk",
+			"source": "TheFeyCompendium",
+			"regionalEffects": [
+				"The region containing a tireganierk's lair is enriched by the fey's presence, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Plant life is hardier within 3 miles of the tireganierk's lair. All plant life benefits from the effects of the {@spell plant growth} spell as if with the 8 hour casting time version. All plant life is better able to resist the cold, and any plant monsters native to the area or conjured within the area has resistance to cold damage.",
+						"Creatures friendly to the tireganierk have advantage on saving throws to resist {@condition exhaustion}.",
+						"The first time a humanoid harms animal or plant life while within 3 miles of the tireganierk's lair, it must perform a {@dc 15} Intelligence saving throw. On a failure, the creature's sense of direction becomes useless for 1 week. During that time, all Survival checks that it makes to prevent becoming lost automatically fail, and all Survival checks to forage for food and track have disadvantage. The creature can perform the saving throw again after each long rest, ending the effects early on a success."
+					]
+				},
+				"If the tireganierk dies, the enriched soil remains for several seasons. All other effects fade over {@dice 2d10} days."
+			]
+		},
+		{
+			"name": "Selephra, the Bramble Queen",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Selephra takes a lair action to cause one of the following effects; Selephra can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"Up to three creatures of Selephra's choice that she can see within her lair must each succeed on a {@dc 19} Charisma saving throw or be assaulted by visions of loss and bitterness. Whenever a target that fails this saving throw makes an attack roll or a saving throw, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw. This effect lasts until initiative count 20 of the following round.",
+						"Selephra creates a 10-foot high, 10-foot wide, 5-foot thick wall of razorvine in an unoccupied space that she can see within her lair. The wall has AC 11, 25 hit points, and immunity to bludgeoning, piercing, and psychic damage. When a creature comes into direct contact with the wall or attempts to make a melee attack against the wall, it must succeed on a {@dc 10} Dexterity saving throw or take 5 ({@dice 1d10}) slashing damage.",
+						"Selephra switch places with one creature of Medium or Small size loyal to her. Any conditions that Selephra is suffering from are transferred over to the creature whose place she switched with."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region within 5 miles of a grieving palace is warped by Selephra's magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Roses, brambles, burs, razorvine, and other thorny plants grow in thick clumps near a Grieving Palace. These plants create areas of difficult terrain that damage creatures that attempt to move through it.",
+						"If it is summer, the area surrounding a Grieving Palace is subject to extreme heat, requiring twice the normal intake of water to stave off overheating.",
+						"Few natural sources of water are found near a Grieving Palace. Native plant-life craves blood and attacks living creatures, and twig blights may spontaneously generate from bushes."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rimefire Eidolon",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the rimefire eidolon takes a lair action to cause one of the following effects; the rimefire eidolon can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The rimefire eidolon casts {@spell wall of ice}. It can maintain concentration on this effect on subsequent rounds, but it cannot use any other lair actions while it does so.",
+						"The air in the lair becomes bitterly cold. Until initiative count 20 of the next round, non-magical flames are extinguished. Any creature currently focusing on a spell that produces a fire effect, such as {@spell flaming sphere}, must make a {@dc 17} saving throw using their spell attack bonus, losing concentration on a failure. Any creature that attempts to cast a spell that creates fire must first make a {@dc 17} saving throw using their spell attack bonus. On a failure, the spell fails and the spell slot is wasted."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing a rimefire eidolon's lair is warped by its fey magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"While within 1 mile of its lair, the rimefire eidolon can cast {@spell clairvoyance} at will.",
+						"The cold is easier for non-evil creatures to survive while within 3 miles of the rimefire eidolon's lair. Any Wisdom ({@skill Survival}) check made by a non-evil aligned creature to find shelter, navigate, or otherwise survive the cold has advantage.",
+						"Creatures within 1 miles of a rimefire eidolon's lair may experience unexplained moments of sadness, joy, or frustration. There is a general air of hopefulness, but it is a hope that is steeped in loss.",
+						"Whenever a creature rolls dice to recover hit points while within 1 mile of the rimefire eidolon's lair, it gains a +1 bonus on each die rolled."
+					]
+				},
+				"If the rimefire eidolon dies, these effects fade {@dice 1d10} days later."
+			]
+		},
+		{
+			"name": "Rhyzalich Dryad",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the rhyzalich dryad takes a lair action to cause one of the following effects; the rhyzalich dryad can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The rhyzalich dryad causes one fungus that it can see within 30 feet of its tree to eject a 20 foot radius cloud of hallucinatory spores. The cloud persists for 1 minute or until the rhyzalich dryad uses this action or a strong wind disperses it. All creatures that enter the cloud or start their turn there must succeed on a {@dc 18} Constitution saving throw or be {@condition poisoned} for 1 minute. The poisoned target is {@condition incapacitated} while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"Grasping roots and vines erupt in a 20-foot radius centered on a point on the ground that the rhyzalich dryad can see within 120 feet of it. That area becomes difficult terrain, and each creature there must succeed on a {@dc 17} Strength saving throw or be restrained by the roots and vines. A creature can be freed if it or another creature takes an action to make a {@dc 17} Strength check and succeeds. The roots and vines wilt away when the rhyzalich dryad uses this lair action again or when the rhyzalich dryad dies.",
+						"The rhyzalich dryad targets one creature it can see within 30 feet of its tree. The target becomes infested with parasitic fungi. Whenever the rhyzalich dryad takes damage, the target must make a {@dc 17} Constitution saving throw. On a failed save, the rhyzalich dryad takes half the damage (rounded down), and the target takes the remaining damage. This fungal infection lasts until initiative count 20 on the next round or until the rhyzalich dryad or the target is no longer within 30 feet of the rhyzalich dryad's tree."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the rhyzalich dryad's tree is infected by its slowly spreading influence, which manifests as a blight on the forest. The area blighted by a typical rhyzalich dryad is usually 1 mile in diameter, but an ancient rhyzalich dryad's blight could extend for miles around. The blighted area possesses one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Hazardous molds such as yellow mold and dangerous fungi such as timmask mushrooms are common within the area.",
+						"Plant life within the area is infested with parasitic fungi, slowly mutating as it is overwhelmed and corrupted.",
+						"Fruit grown within the area is poisonous, causing anything from intestinal distress to agonizing death.",
+						"Corpses within the area become infested with fungi and rise up as undead 24 hours after dying. These undead may be found roaming far from the blighted area."
+					]
+				},
+				"If the rhyzalich dryad's tree is destroyed, the blight it spreads is halted. The dangerous fungal infections that afflict the plants in the area fade away within 1 year. Any undead created from the rhyzalich dryad's presence crumble into soil within {@dice 1d6} days."
+			]
+		},
+		{
+			"name": "Prince of Frost",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the Prince of Frost takes a lair action to cause one of the following effects; the Prince of Frost can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The Prince of Frost chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling, frigid wind 60 feet tall and with a 10 foot radius rises from that point and lasts until initiative count 20 of the following round. Creatures in that area are vulnerable to cold damage.",
+						"The air in the lair becomes filled with a bitter cold which restricts healing. All healing magic used in the lair only heals half the amount of health it would normally heal until initiative count 20 of the following round.",
+						"All creature within his lair that the Prince of Frost is aware of must make a {@dc 20} Wisdom saving throw. On a failure, a creature takes 27 ({@dice 5d10}) psychic damage and is overwhelmed with sorrow, becoming incapacitated until initiative count 20 of the following round. On a success a creature takes only half damage and is not {@condition incapacitated}."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the Prince of Frost's lair is warped by his magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"All saving throws made to resist the deleterious effects of extreme cold while within 10 miles of the Prince of Frost's lair are made with disadvantage. If a creature fails a saving throw to resist the effects of extreme cold while within this area, roll on the Flaws of the Prince table to determine the nature of the flaw, which is a character flaw that lasts until cured.",
+						"Plant life cannot find purchase within the permafrost soil within 10 miles of the Prince of Frost's lair. Any spells that create plant life automatically fail while in this area.",
+						"The misery of this realm hates joy. If a creature laughs within."
+					]
+				},
+				"If the Prince of Frost dies, these effects fade in {@dice 1d10} days."
+			]
+		},
+		{
+			"name": "Oberon, The Green Lord",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Oberon takes a lair action to cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Oberon casts {@spell hunter's mark} on one creature that he can see. He does not need to concentrate on this spell, and the effects persist until the target leaves the Feywild.",
+						"All beasts and plants friendly to Oberon gain advantage on all attack rolls and saving throws until initiative count of the following round.",
+						"Grasping roots and vines erupt in a 20 foot radius sphere from a point on the ground that Oberon can see within 120 feet of him. The area becomes difficult terrain, and each creature in the area when it first appears must succeed on a {@dc 18} Strength saving throw or become restrained. A creature can be freed if it or another creature takes an action to make a {@dc 18} Strength check and succeeds. The roots and vines wilt away if Oberon uses this action again or he dies."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region of the Feywild that Oberon currently occupies responds to his presence, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The weather within 5 miles of Oberon reflects his current mood. For example, if he is happy the weather is clear and bright, if he is sullen it is cloudy and drab, if he is angry it is stormy, etc. Whenever his mood changes, the weather will begin to change as if affected by the {@spell control weather} spell. Oberon does not have conscious control of this.",
+						"Creatures friendly to Oberon within 5 miles of him gain advantage on all Wisdom ({@skill Survival}) checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Morwel, the Queen of Stars",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Morwel takes a lair action to cause one of the following effects; the same effect can't be used two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"All creatures of Morwel's choice that she can see are subjected to the {@spell calm emotions} spell.",
+						"Feelings of goodwill suffuse the very air. Until initiative count 20 of the following round, all attack rolls made within sight of Morwel have disadvantage.",
+						"Healing energy radiates from the stones of the palace. Until initiative count 20 of the following round, a creature that starts its turn within the palace can choose whether or not to accept the healing energy. Should the creature accept the magic, it regains {@dice 2d6 + 7} hit points. Should a creature that accepts the energy make an attack roll or cast a harmful spell before initiative count 20 of the following turn, it must first succeed on a {@dc 22} Charisma saving throw or magically fall {@condition unconscious} for 1 minute or until it takes damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Malgoren",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), malgoren takes a lair action to cause one of the following effects; malgoren can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"The malgoren casts {@spell darkness} on a spot that it can see. The spell does not require concentration and lasts for 1 minute or until the malgoren uses this lair action again.",
+						"The malgoren casts {@spell hold monster} ({@dc 18}) on all creatures of its choice that it can see that are in direct contact with any kind and shape of stone. The spell does not require concentration and end on initiative count 20 of the following round. If a creature successfully saves against this effect, it is immune to this lair action for 24 hours.",
+						"The malgoren teleports to a space it can see within 60 feet of it, provided that it is currently in contact with a stone."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region 1 mile around malgoren's lair is warped by its magic, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The malgoren immediately becomes aware whenever a creature with an Intelligence score of 5 (-3) or higher enters the area, though it does not know the direction to the target.",
+						"Sounds are amplified within the area. Soft footfalls echo unnervingly. Whispered voices seem to ring far too loud. Dexterity ({@skill Stealth}) checks and saving throws to resist being deafened from sonic effects made within the area have disadvantage.",
+						"Strange, glowing crystals and fungi decorate the walls, creating an eerie radiance in places. The malgoren cultivates the growth of only the sweetest smelling fungi, so the tunnels and caves are always pleasantly fragrant."
+					]
+				}
+			]
+		},
+		{
+			"name": "Malagard, the Hag Countess",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Malagard takes a lair action to cause one of the following effects; Malagard can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"Malagard targets one creature within 10 feet of a mound of her flesh. Pseudopods of flesh reach out to entangle the creature, which must succeed on a {@dc 19} Dexterity or Strength saving throw or become {@condition restrained} and pulled onto the flesh mound. The restrained creature can repeat the saving throw at the end of each of its turns, escaping on a success. A creature currently under the effects of the {@spell contagion} spell transmitted through Malagard's bite or a {@spell bestow curse} spell cast by Malagard has disadvantage on the saving throw. With each subsequent failure a creature gains 1 level of {@condition exhaustion}. Once the target reaches 6 levels of exhaustion, it dies and is absorbed into the flesh. Only a {@spell wish} spell can restore a creature killed in this way. These pseudopods disappear if Malagard uses this lair action again before the creature is absorbed. Another creature within 5 feet can use its action to perform a {@dc 19} Strength ({@skill Athletics}) check, freeing the restrained creature on a success.",
+						"A gout of bile and blood erupts in a 30 foot long, 5-foot wide line from a mound of flesh that Malagard can see. Any creature in the line must make a {@dc 19} Dexterity saving throw, taking 14 ({@damage 4d6}) acid damage on a failed save or half as much on a successful one.",
+						"Malagard harnesses the mind numbing aura of Magoth Thym. All creatures within the lair that are not Malagard or her coven must succeed on a {@dc 19} Intelligence saving throw or be affected as if by the {@spell feeblemind} spell until initiative count 20 of the next round.",
+						"Malagard commands one {@creature kalabon} within 60 feet of her that she can see to use its reaction to either make one melee attack, move up to its speed, or use its Greater Good."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region around Magoth Thym is warped by the unknowable evil within and further twisted by Malagard's influence, which creates the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Devils possess an inborn fear of Magoth Thym. While within the area, devils have disadvantage on all attack rolls and ability checks. Periodically, a shrieking howl that only devils can hear issues from the cavern, echoing for miles. All devils within 1 mile that can hear it automatically become frightened for 1 minute, ignoring immunities to being frightened, and must use their action and movement to move away from Magoth Thym as quickly as possible. Devils between 1 mile and 10 miles away that can hear the howls are allowed to make a {@dc 22} Wisdom saving throw to resist this effect. {@creature Assassin devil}s and {@creature nupperibo}s are immune to these effects.",
+						"The first time a creature enters the area, and each time it completes a long rest within the area, it must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for as long as it remains in the area. On a successful saving throw, the creature is immune to the stench of Malagard's flesh and the Stench of all {@creature kalabon} for 24 hours.",
+						"As an action, Malagard can perceive through the senses of any {@creature kalabon|TheFeyCompendium} in the area."
+					]
+				},
+				"Additionally, Malagard's flesh coats the ground for miles around Magoth Thym, creating effects unique to the area.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Bile River.} Rivers of bile wind through the perverse landscape. Creatures submerged in bile take 7 ({@damage 2d6}) acid damage when they first enter the bile or at the beginning of their turn, but not more than once per round.",
+						"{@b Pus Geyser.} Throughout the landscape are swollen sores of infected tissue. Geysers of pus occasionally erupt from these swollen masses of flesh. A creature caught in the blast must succeed on a {@dc 15} Dexterity saving throw or become coated in pus. While coated in pus, a creature is poisoned and has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength. A creature can use its action to scrape the pus from its body or another creatures body.",
+						"{@b Hair Tangles.} Tangles of thick hair form what is akin to undergrowth, creating difficult terrain and providing opportunities for concealment for fiendish vermin.",
+						"{@b Sweat Floods.} Occassionally, sudden surges in sweat will cause a momentary flash flood. A creature caught in a flash flood must succeed on a {@dc 20} {@skill Athletics} check or be washed 60 feet away.",
+						"{@b Mucus Spills.} Orifices leak thick, sticky mucus throughout the area, creating difficult terrain for any creatures that attempt to walk through them.",
+						"{@b Blood Bogs.} Continual damage to Malagard's flesh causes blood to accumulate into a thick, shallow bog. These bogs are breeding grounds for stirges, leeches, and other bood feeding creatures."
+					]
+				},
+				"Malagard and any nearby kalabon feel any substantial damage done to the flesh. Though neither Malagard nor her kalabon can pinpoint the location of the damage, they can determine the approximate direction."
+			]
+		},
+		{
+			"name": "Emee Khunbish",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Emee Khunbish takes a lair action to cause one of the following effects; Emee Khunbish can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"Until initiative count 20 on the next round, Emee Khunbish can pass through solid walls, doors, ceilings, and floors as if the surfaces weren't there.",
+						"Emee Khunbish targets any number of doors and windows that she can see, causing each one to either open or close as she wishes. Closed doors can be magically locked (requiring a successful {@dc 20} Strength check to force open) until she chooses to make them unlocked, or until she uses this lair action again to open them.",
+						"Emee Khunbish creates a blizzard in a 40-foot-high, 20- foot radius cylinder centered on a point she can see within 120 feet of her. The effect lasts until initiative count 20 on the next round. The blizzard lightly obscures every creature and object in the area for the duration. A creature that enters the blizzard for the first time on a turn or starts its turn there is blinded until initiative count 20 on the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The land where Emee Knubish lairs is warped by her magic, which creates the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The save DC to resist the effects of extreme cold is 15.",
+						"Improperly preserved or stored food spoils quickly. Creatures that consume food in the area must succeed on a {@dc 10} Constitution saving throw or contract a random effect from {@spell contagion}.",
+						"Spirits of cold such as hoarfrosters, lesser wendigos, orglash, and thomil roam the area, hunting intruders without mercy.",
+						"Small avalanches of snow intermittently fall, blocking a path or burying intruders. A buried creature is restrained and has to hold its breath until it is dug out.",
+						"Human-sized blocks of ice appear, containing frozen corpses. These corpses might break free and attack as {@creature zombie}s, or their spirits might attack as {@creature specter}s.",
+						"Blizzards come without warning. A blizzard occurs once every {@dice 2d12} hours and lasts {@dice 1d3} hours. During a storm, creatures moving overland travel at half normal speed, and normal visibility is reduced to 30 feet.",
+						"Roads, paths, and trails twist and turn back on themselves, making navigation in the area exceedingly difficult. {@skill Survival} checks made to navigate through the area are done with disadvantage."
+					]
+				},
+				"When Emee Knubish dies, these effect fades after {@dice 2d12} days."
+			]
+		},
+		{
+			"name": "Ceithlenn, of the Crooked Teeth",
+			"source": "TheFeyCompendium",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Ceithlenn takes a lair action to cause one of the following effects; Ceithlenn can't use the same effect two turns in a row.",
+				{
+					"type": "list",
+					"items": [
+						"Ceithlenn casts {@spell wall of thorns}. Ceithlenn doesn't need to concentrate on the spell, which remains active for 1 minute or until Ceithlenn uses this lair action again.",
+						"A 20-foot radius circle of ground becomes occupied by the ghostly specters of children, which stare blankly at nearby creatures. The area is difficult terrain until initiative count of the next round, at which point the children disappear.",
+						"Ceithlenn expends 1 charge from her Box of Treasure to cast {@spell greater restoration} or {@spell cure wounds} as a 5th-level spell."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The island of Enniskillen is warped by Ceithlenn's magic, as is the land within 5 miles of the shoreline where Enniskillen is visible. While the influence of Enniskillen is present, the following effects apply:",
+				{
+					"type": "list",
+					"items": [
+						"Mists are ubiquitous. All Wisdom ({@skill Survival}) checks made by creatures not loyal to Enniskillen have disadvantage while within these mists. Creatures loyal to Ceithlenn have advantage on Dexterity ({@skill Stealth}) checks while within these mists.",
+						"While Ceithlenn plays her Pipes of Clean Bone, the music from the pipes can be heard faintly throughout the area, no matter the distance from Ceithlenn.",
+						"Beasts with an Intelligence of 3 or lower that aren't loyal to Strahd become loyal to Ceithlenn. Beasts loyal to Strahd are anxious and flighty while within the area and are vulnerable to being frightened, and beasts loyal to Ceithlenn attack any beasts loyal to Strahd on sight."
+					]
+				},
+				"When Ceithlenn dies, these effect fade from the shores of Lake Zarovich immediately and the island of Enniskillen fades permanently into the mists."
+			]
+		}
+	]
+}
